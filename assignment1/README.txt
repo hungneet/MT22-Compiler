@@ -8,12 +8,3 @@ Then type: python run.py test CheckerSuite
 Then type: python run.py test CodeGenSuite
 
 
-
-//HOT CMD
-self.assertTrue(TestLexer.test("",",<EOF>",1))
-
-input = """main: function void() {}"""
-        expect = "successful"
-        self.assertTrue(TestParser.test(input, expect, 2))
-
-
