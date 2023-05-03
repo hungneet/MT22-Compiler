@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(baz, FloatType, [Param(x, FloatType), Param(y, FloatType)], None, BlockStmt([IfStmt(BinExpr(>, Id(x), Id(y)), BlockStmt([ReturnStmt(Id(x))]), BlockStmt([ReturnStmt(Id(y))]))]))
+])

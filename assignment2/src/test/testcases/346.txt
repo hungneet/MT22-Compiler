@@ -1,0 +1,9 @@
+
+        foo: function void () {}
+        bar: function integer (a: integer, b: float) {
+            return a + b;
+        }
+        baz: function string () {
+            return "hello";
+        }
+        

@@ -1,0 +1,6 @@
+main: function void() {
+            x,y,z: integer = 1,2,{1,2,2};
+            break;
+            while(9!=0) {}
+            {{{}}}
+            }

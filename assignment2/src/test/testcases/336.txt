@@ -1,0 +1,3 @@
+fact : function integer (){
+                while(x<1) a = 1;
+        }

@@ -1,0 +1,8 @@
+
+        main: function void () {
+            do {
+                print("hello");
+                break;
+                continue;
+            } while (false);
+        }

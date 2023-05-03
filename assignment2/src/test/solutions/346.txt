@@ -1,0 +1,5 @@
+Program([
+	FuncDecl(foo, VoidType, [], None, BlockStmt([]))
+	FuncDecl(bar, IntegerType, [Param(a, IntegerType), Param(b, FloatType)], None, BlockStmt([ReturnStmt(BinExpr(+, Id(a), Id(b)))]))
+	FuncDecl(baz, StringType, [], None, BlockStmt([ReturnStmt(StringLit(hello))]))
+])

@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, StringType, [], None, BlockStmt([ReturnStmt(FuncCall(foo, [BinExpr(-, IntegerLit(1), IntegerLit(2)), Id(a), StringLit(True)]))]))
+])

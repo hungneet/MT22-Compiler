@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(bar, VoidType, [], None, BlockStmt([IfStmt(BinExpr(>, Id(x), Id(y)), BlockStmt([CallStmt(print, StringLit(x is greater than y))]), IfStmt(BinExpr(>, Id(y), Id(x)), BlockStmt([CallStmt(print, StringLit(y is greater than x))]), BlockStmt([CallStmt(print, StringLit(x and y are equal))])))]))
+])

@@ -1,0 +1,5 @@
+Program([
+	FuncDecl(main, StringType, [], None, BlockStmt([]))
+	FuncDecl(main, StringType, [], None, BlockStmt([]))
+	FuncDecl(main, StringType, [], None, BlockStmt([]))
+])

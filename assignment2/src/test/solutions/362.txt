@@ -1,0 +1,4 @@
+Program([
+	FuncDecl(power, IntegerType, [Param(base, IntegerType), Param(exponent, IntegerType)], None, BlockStmt([IfStmt(BinExpr(==, Id(exponent), IntegerLit(0)), ReturnStmt(IntegerLit(1)), ReturnStmt(BinExpr(*, Id(base), FuncCall(power, [Id(base), BinExpr(-, Id(exponent), IntegerLit(1))]))))]))
+	FuncDecl(main, VoidType, [], None, BlockStmt([CallStmt(printIntLn, FuncCall(power, [IntegerLit(2), IntegerLit(10)]))]))
+])

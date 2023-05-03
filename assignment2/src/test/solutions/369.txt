@@ -1,0 +1,3 @@
+Program([
+	VarDecl(delta123, StringType, StringLit(Hello World))
+])

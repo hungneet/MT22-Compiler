@@ -1,0 +1,13 @@
+
+        foo: function void (a: integer, b: float, c: string) {
+            if (a == 0) {
+                return;
+            }
+            else {
+                print(b);
+                foo(a-1, b, c);
+            }
+        }
+        main: function void () {
+            foo(10, 10.0, "hello");
+        }

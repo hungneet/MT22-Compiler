@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(foo, BooleanType, [Param(x, IntegerType), Param(y, ArrayType([2], FloatType))], None, BlockStmt([ForStmt(AssignStmt(Id(i), IntegerLit(0)), BinExpr(<, Id(i), Id(x)), BinExpr(+, Id(i), IntegerLit(1)), BlockStmt([AssignStmt(ArrayCell(y, [Id(i)]), BinExpr(*, Id(i), FloatLit(2.0)))])), ReturnStmt(BooleanLit(True))]))
+])

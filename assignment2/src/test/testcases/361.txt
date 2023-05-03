@@ -1,0 +1,13 @@
+
+        gcd: function integer (a: integer, b: integer) {
+            while (a != b) {if (a > b)
+                    a = a - b;
+                else
+                    b = b - a;
+           }
+                return a; 
+        }
+        main: function void () {
+            printIntLn(gcd(12, 18));
+        }
+        

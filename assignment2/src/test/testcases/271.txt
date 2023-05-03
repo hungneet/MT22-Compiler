@@ -1,0 +1,5 @@
+foo: function boolean() {
+             x: boolean = true;
+             y: boolean = false;
+            return x && y || !x && !y;
+        }

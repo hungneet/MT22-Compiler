@@ -1,0 +1,7 @@
+foo: function void (a: integer, b: boolean) {
+            if (a == 0) 
+                return z;
+            else
+                b = true;
+            foo(a-1, b);
+        }

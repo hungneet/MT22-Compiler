@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, StringType, [], None, BlockStmt([CallStmt(foo, FuncCall(foo, [FuncCall(foo, [StringLit(stupid)])]))]))
+])

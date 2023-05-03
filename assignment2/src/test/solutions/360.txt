@@ -1,0 +1,4 @@
+Program([
+	FuncDecl(factorial, IntegerType, [Param(n, IntegerType)], None, BlockStmt([IfStmt(BinExpr(==, Id(n), IntegerLit(0)), ReturnStmt(IntegerLit(1)), ReturnStmt(BinExpr(*, Id(n), FuncCall(factorial, [BinExpr(-, Id(n), IntegerLit(1))]))))]))
+	FuncDecl(main, VoidType, [], None, BlockStmt([CallStmt(printIntLn, FuncCall(factorial, [IntegerLit(5)]))]))
+])

@@ -1,0 +1,7 @@
+
+        foo: function integer (a: integer, b: float) {
+            c: integer;
+            c = a + b;
+            return c;
+        }
+        
