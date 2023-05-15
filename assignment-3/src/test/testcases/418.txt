@@ -1,0 +1,10 @@
+
+        foo : function auto ( a : integer , b : integer ) {
+            x: integer = 1;
+        }
+        a: integer = 1;
+        main: function void(){
+
+            z: integer = 1;
+            foo(a,z);
+            } 

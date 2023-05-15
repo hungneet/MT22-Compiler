@@ -1,0 +1,7 @@
+
+        foo : function integer (c: integer) {
+            return c+2;
+        }
+        main: function void(){
+            foo(1);
+            } 

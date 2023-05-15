@@ -1,0 +1,8 @@
+ 
+        foo : function auto ( a : integer , b : integer ) {}
+        main: function void(){
+            a: string = "abc";
+            b: boolean = 1>2;
+            c: auto = b;
+            d: float = c ;
+            } 

@@ -1,0 +1,5 @@
+ main: function void(){
+            a: string = "abc";
+            b: boolean = 1>2;
+            c: auto = b;
+            } 

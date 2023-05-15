@@ -1,0 +1,7 @@
+
+        foo : function auto ( a : integer , b : integer ) {
+            x: integer = 1;
+        }
+        x, y, z: integer = 1,2,3;
+        main: function void(){
+            } 

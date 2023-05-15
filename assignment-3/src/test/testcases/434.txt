@@ -1,0 +1,5 @@
+
+        main: function void(){
+             a,i:integer;
+              if (a==0) i=i+1;
+            } 

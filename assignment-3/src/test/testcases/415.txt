@@ -1,0 +1,9 @@
+
+        foo : function auto ( a : integer , b : integer ) {}
+        foo2: function auto ( a : integer , b : integer ) inherit foo {
+            super(a,b);
+        }
+        main: function void(){
+            c: void;
+            b: void = c;
+            } 

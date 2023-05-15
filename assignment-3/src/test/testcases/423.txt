@@ -1,0 +1,8 @@
+
+        foo : function void ( a : integer , b : integer ) {
+            x: integer = 1;
+        }
+        main: function void(){
+            a,b: integer;
+            foo(1,2,3);
+            } 

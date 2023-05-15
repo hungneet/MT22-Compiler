@@ -1,0 +1,13 @@
+
+        main: function void(){
+            a : array [5] of integer = {1,2,3,7,5};
+            z: integer;
+            z = a[3];
+            z = a[z];
+            z = a[z];
+            z = a[z];
+            z = a[z];
+            z = a[z];
+            z = a[z];
+        
+            } 

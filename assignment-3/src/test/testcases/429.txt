@@ -1,0 +1,7 @@
+
+        foo : function void () {
+            a,b: integer;
+        }
+        main: function void(){
+            continue;
+            } 

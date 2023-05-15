@@ -1,0 +1,9 @@
+
+        foo : function auto ( a : integer , b : integer, z: integer ) {
+            x: integer = 1;
+        }
+        foo2: function auto ( a : integer , b : integer)  {
+            preventDefault();
+        }
+        main: function void(){
+            } 

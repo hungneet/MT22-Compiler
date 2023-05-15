@@ -1,0 +1,4 @@
+ main: function void(){
+            a: integer = 1.5;
+            b: float = a+2;
+            } 

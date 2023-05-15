@@ -1,0 +1,12 @@
+
+        foo : function auto ( a : integer , b : integer, z: integer ) {
+            
+            x: integer = 1;
+        }
+        foo2: function auto (inherit a : integer , b : integer) inherit foo {
+            super(1,2.8,3);
+            a: integer = 1;
+        }
+        main: function void(){
+
+            } 
