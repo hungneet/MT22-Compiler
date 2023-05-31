@@ -517,7 +517,7 @@ class StaticChecker(Visitor):
         main_decl = next((decl for decl in ast.decls if decl.name == "main" and isinstance(decl.return_type, VoidType)), None)
         if not main_decl:
             raise NoEntryPoint()
-        return []
+        return [] 
 
 
 

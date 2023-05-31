@@ -1,0 +1,10 @@
+
+            foo: function integer(a: integer) inherit goo {
+                super(3);
+                return 2;
+            }
+            goo: function integer(inherit abc: integer) {
+                return b;
+            }
+            main: function void() {}
+        

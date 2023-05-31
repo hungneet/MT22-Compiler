@@ -1,0 +1,15 @@
+
+            main: function void() {
+                a: integer = 2;
+                b: integer = 3;
+                if (a < b) {
+                    printString("a is less than b");
+                }
+                if (a > b) {
+                    printString("a is rather than b");
+                }
+                if (a == b) {
+                    printString("a is equal b");
+                }
+            }
+        

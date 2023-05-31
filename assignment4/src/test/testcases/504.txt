@@ -1,0 +1,10 @@
+
+            b: integer = 4;
+            main: function void () {
+                i: integer = 5;
+                if (i == 5) {
+                    printInteger(i);
+                }
+            }
+        
+        

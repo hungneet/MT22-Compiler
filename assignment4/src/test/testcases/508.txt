@@ -1,0 +1,6 @@
+
+            main: function void() {
+                b: float = 3.5;
+                printFloat(b);
+            }
+        
